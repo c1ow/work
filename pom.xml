@@ -23,5 +23,6 @@
 	<modules>
 		<module>work-spark</module>
 		<module>work-solr</module>
+		<module>work-scala</module>
 	</modules>
 </project>
