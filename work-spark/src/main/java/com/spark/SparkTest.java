@@ -20,11 +20,12 @@ public class SparkTest {
 		JavaStreamingContext jsc = new JavaStreamingContext(sparkConf,Durations.seconds(1));
 		JavaReceiverInputDStream<String> lines = jsc.socketTextStream("192.168.0.120", 4040);
 		JavaDStream<String> errorLines = lines.filter(new Function<String, Boolean>() {
-			
-			@Override
+
 			public Boolean call(String arg0) throws Exception {
+				
 				return arg0.contains("error");
 			}
+			
 		});
 		errorLines.print();
 		jsc.start();
