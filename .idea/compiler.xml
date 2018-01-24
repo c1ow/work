@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="work-dao" />
+        <module name="work-hadoop" />
+        <module name="work-scala" />
+        <module name="work-shell" />
+        <module name="work-solr" />
+        <module name="work-spark" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="work" target="1.8" />
+      <module name="work-dao" target="1.8" />
+      <module name="work-hadoop" target="1.8" />
+      <module name="work-scala" target="1.8" />
+      <module name="work-shell" target="1.8" />
+      <module name="work-solr" target="1.8" />
+      <module name="work-spark" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

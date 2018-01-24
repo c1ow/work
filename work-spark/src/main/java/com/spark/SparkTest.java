@@ -1,7 +1,5 @@
 package com.spark;
 
-import org.apache.spark.SparkConf;
-import org.apache.spark.api.java.function.Function;
 import org.apache.spark.streaming.Durations;
 import org.apache.spark.streaming.api.java.JavaDStream;
 import org.apache.spark.streaming.api.java.JavaReceiverInputDStream;

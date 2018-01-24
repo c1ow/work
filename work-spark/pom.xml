@@ -4,16 +4,17 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   
-  <parent>
-    <groupId>com.solr</groupId>
+ <parent>
+    <groupId>com.work</groupId>
     <artifactId>work</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-  </parent>
+  </parent> 
   
-  <groupId>com.spark</groupId>
+  <groupId>com.work</groupId>
   <artifactId>work-spark</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>work-spark</name>
+  
   <url>http://maven.apache.org</url>
   
   <properties>
