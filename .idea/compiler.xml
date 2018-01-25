@@ -19,7 +19,7 @@
       <module name="work-dao" target="1.8" />
       <module name="work-hadoop" target="1.8" />
       <module name="work-scala" target="1.8" />
-      <module name="work-shell" target="1.8" />
+      <module name="work-shell" target="1.7" />
       <module name="work-solr" target="1.8" />
       <module name="work-spark" target="1.8" />
     </bytecodeTargetLevel>
