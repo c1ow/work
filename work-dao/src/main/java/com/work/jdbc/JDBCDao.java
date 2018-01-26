@@ -9,20 +9,20 @@ import java.sql.Statement;
 import java.util.Map;
 
 public class JDBCDao {
-	private final static String URL = "jdbc:log4jdbc:oracle:thin:@222.187.115.126:11521:orcl";
-	private final static String PWD = "cdms@123";
-	private final static String UNAME = "cdms";
+	private final static String URL = "jdbc:mysql://192.168.0.120:3306/testok?useSSL=false";
+	private final static String PWD = "tiger";
+	private final static String UNAME = "root";
 	public static Map<String,Object> fileds() {
 		Connection connection = null;
 		Statement createStatement = null;
 		ResultSet executeQuery = null;
 		try {
 			//获取连接
-			Class.forName("net.sf.log4jdbc.sql.jdbcapi.DriverSpy");
+			Class.forName("com.mysql.jdbc.Driver");
 			connection = DriverManager.getConnection(URL,UNAME,PWD);
 			//执行sql 语句
 			createStatement = connection.createStatement();
-			executeQuery = createStatement.executeQuery("select * from MXX_HIS_ASSAY_RESULT_0_500 where id = -1");
+			executeQuery = createStatement.executeQuery("select table_name from information_schema.tables WHERE TABLE_SCHEMA = \"testok\"");
 			//获取元数据
 			ResultSetMetaData metaData = executeQuery.getMetaData();
 			//获取列数

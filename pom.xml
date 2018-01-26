@@ -94,6 +94,7 @@
 		<module>work-spark</module>
 		<module>work-hadoop</module>
 		<module>work-dao</module>
+		<module>work-tools</module>
 	</modules>
 	
 </project>
