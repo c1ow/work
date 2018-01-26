@@ -39,7 +39,12 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-remote-shell</artifactId>
 	</dependency>
-	
+	<!-- https://mvnrepository.com/artifact/com.jcraft/jsch 远程连接Linux -->
+	<dependency>
+	    <groupId>com.jcraft</groupId>
+	    <artifactId>jsch</artifactId>
+	    <version>0.1.54</version>
+	</dependency>
   </dependencies>
   
   <build>
