@@ -5,7 +5,6 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import com.work.test.annotation.AnnotationTest;
 
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

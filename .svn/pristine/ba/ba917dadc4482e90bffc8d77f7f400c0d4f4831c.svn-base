@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/work.iml" filepath="$PROJECT_DIR$/work.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work-dao/work-dao.iml" filepath="$PROJECT_DIR$/work-dao/work-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work-hadoop/work-hadoop.iml" filepath="$PROJECT_DIR$/work-hadoop/work-hadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work-scala/work-scala.iml" filepath="$PROJECT_DIR$/work-scala/work-scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work-shell/work-shell.iml" filepath="$PROJECT_DIR$/work-shell/work-shell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work-solr/work-solr.iml" filepath="$PROJECT_DIR$/work-solr/work-solr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work-spark/work-spark.iml" filepath="$PROJECT_DIR$/work-spark/work-spark.iml" />
+    </modules>
+  </component>
+</project>

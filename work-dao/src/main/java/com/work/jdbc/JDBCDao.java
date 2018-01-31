@@ -36,31 +36,35 @@ public class JDBCDao {
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}finally {
-			if (connection!=null) {
-				try {
-					connection.close();
-				} catch (SQLException e) {
-					e.printStackTrace();
-				}
-			}
 			
-			if (createStatement !=null ) {
-				try {
-					createStatement.close();
-				} catch (SQLException e) {
-					e.printStackTrace();
-				}
-			}
-			
-			if (executeQuery !=null) {
-				try {
-					executeQuery.close();
-				} catch (SQLException e) {
-					e.printStackTrace();
-				}
-			}
 		}
 		return null;
+	}
+	//关闭数据连接
+	public static void closedConn(Connection connection,Statement statement,ResultSet resultest) {
+		if (connection!=null) {
+			try {
+				connection.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		
+		if (statement !=null ) {
+			try {
+				statement.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		
+		if (resultest !=null) {
+			try {
+				resultest.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
 	}
 	public static void main(String[] args) {
 		fileds();
